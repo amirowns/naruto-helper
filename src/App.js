@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Unit from './Unit'
+import Unit2 from './Unit2'
+import Searchbar from './Searchbar'
+import { useState } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    const [value, setValue] = useState("NormalNaruto");
+
+    return (
+        <div className="app">
+            <div className="search">
+                <Searchbar handleChange={setValue}
+                value={value} />
+            </div>
+            <div className="container">
+                <Unit value={value} />
+            </div>
+        </div>
+    )
 }
 
 export default App;
