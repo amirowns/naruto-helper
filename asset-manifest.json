@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/naruto-helper/static/css/main.541d81b2.css",
+    "main.js": "/naruto-helper/static/js/main.937d5a6b.js",
+    "index.html": "/naruto-helper/index.html",
+    "main.541d81b2.css.map": "/naruto-helper/static/css/main.541d81b2.css.map",
+    "main.937d5a6b.js.map": "/naruto-helper/static/js/main.937d5a6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541d81b2.css",
+    "static/js/main.937d5a6b.js"
+  ]
+}
